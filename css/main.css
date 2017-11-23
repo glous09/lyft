@@ -1,3 +1,15 @@
-/*
- * Estilos de tu proyecto
- */
+header {
+  background-repeat:no-repeat;
+  background-image:url("../assets/images/hero.gif");
+  height: 400px;
+  background-size:100%  500px;
+}
+header > .logo {
+  float:left;
+}
+.logo > img {
+  width: 7%;
+}
+.access {
+  float: right;
+}
